@@ -1,5 +1,5 @@
 # <div align="center">Acfun-Favorites-AutoDel</div>
-*用于自动删除Acfun个人收藏夹*已失效的收藏稿件/空收藏夹的油猴脚本。*
+*用于自动删除Acfun个人收藏夹已失效的收藏稿件/空收藏夹的油猴脚本。*
 
 ​    
 
