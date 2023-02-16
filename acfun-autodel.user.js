@@ -2,7 +2,7 @@
 // @name         Acfun.AutoDel
 // @namespace    https://github.com/
 // @version      23.02.16
-// @description  用于自动删除Acfun个人收藏夹被删除的收藏稿件记录/空收藏夹。
+// @description  用于自动删除Acfun个人收藏夹已失效的收藏稿件记录/空收藏夹。
 // @author       monSteRhhe
 // @match        http*://www.acfun.cn/member*
 // @icon         https://cdn.aixifan.com/ico/favicon.ico
