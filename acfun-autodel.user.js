@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Acfun.AutoDel
 // @namespace    https://github.com/
-// @version      23.02.16
+// @version      23.02.20
 // @description  用于自动删除Acfun个人收藏夹已失效的收藏稿件记录/空收藏夹。
 // @author       monSteRhhe
 // @match        http*://www.acfun.cn/member*
@@ -147,15 +147,15 @@
         }
     }
 
-    GM_addStyle('\
-        span.acdel-btn {\
-            margin-left: 1rem;\
-        }\
-        span.acdel-btn:hover {\
-            cursor: pointer;\
-            text-decoration: underline;\
-        }\
-    ')
+    GM_addStyle(`
+        span.acdel-btn {
+            margin-left: 1rem;
+        }
+        span.acdel-btn:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    `)
 
     /* 监控页面改变，匹配收藏夹页面 */
     document.getElementsByClassName('ac-member-main')[0].addEventListener('DOMNodeInserted', function() {
